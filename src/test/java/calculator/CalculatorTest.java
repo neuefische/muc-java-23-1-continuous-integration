@@ -30,6 +30,14 @@ class CalculatorTest {
 		
 		// THEN - Erwartetes Ergebnis rauskommen
 		// Sicherstellen das expected = result ist
-		assertEquals(expected, result);		
+		assertEquals(expected, result);	
+		
+		
+	}
+	
+	public static int [] bubbleSort(int [] unsortedArray) {
+	    int [] sortedArray = new int [unsortedArray.length];
+	    // ...
+	    return sortedArray;
 	}
 }
